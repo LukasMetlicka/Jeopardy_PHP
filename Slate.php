@@ -70,7 +70,7 @@ $answer = $_SESSION["answer"];
     <body>
 
         <h1><?php echo $_SESSION[$question]; ?></h1>
-    <?php var_dump($_SESSION); ?>
+
 
     </body>
 

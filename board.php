@@ -4,7 +4,7 @@
 if (empty($_SESSION)){
     $_SESSION = $_GET;
 }
-var_dump($_SESSION);
+
 ?>
 <html>
 
