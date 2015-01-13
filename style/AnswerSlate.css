@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 600%;
+
+}
+input{
+    border : 0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+    width: 60%;
+    height: 20%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10px;
+    font-size: large;
+    background-color: #9b59b6;
+}
