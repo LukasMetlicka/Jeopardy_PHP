@@ -1,10 +1,5 @@
 <?php
-
-    session_start();
-if (empty($_SESSION)){
-    $_SESSION = $_GET;
-}
-
+session_start();
 ?>
 <html>
 

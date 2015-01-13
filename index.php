@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <form action="board.php" method="GET">
+        <form action="redirect.php" method="get">
 
             <div class="column" id="Green">
                 <h1 id="col1" >Column 1:</h1>
