@@ -8,6 +8,11 @@ session_start();
     </head>
 
     <body>
+        <span style="display: none;">
+            <?php echo $_SESSION["url"]; ?>
+        </span>
+        <textarea id="holdtext" STYLE="display:none;">
+        </textarea>
         <h1>Jeopardy!</h1>
         <div id="Green">
 
@@ -185,5 +190,16 @@ session_start();
         </div>
 
     </body>
+
+    <SCRIPT LANGUAGE="JavaScript">
+
+        function ClipBoard()
+        {
+            holdtext.innerText = copytext.innerText;
+            Copied = holdtext.createTextRange();
+            Copied.execCommand("Copy");
+        }
+
+    </SCRIPT>
 
 </html>
